@@ -44,7 +44,7 @@ s.parentNode.insertBefore(hm, s);
             <li class=""><a>案例</a></li>
             <!-- <li class=""><a>企业</a></li> -->
             <li class=""><a>品质</a></li>
-            <li class=""><a>增值</a></li>
+            <!-- <li class=""><a>增值</a></li> -->
             <li class=""><a>关于</a></li>
             <li class=""><a>联系</a></li>
           </ul>
@@ -112,11 +112,14 @@ s.parentNode.insertBefore(hm, s);
                 
                 <ul>
                 </ul>
-            </div>
-            <div class="guide">
-              <a class="active"></a><a class=""></a><a class=""></a><a class=""></a></div>
+          </div>
+          <div class="guide" id="guidediv">
+              <a class="active"></a><a class=""></a>
+              <a class=""></a><a class=""></a>
+          </div>
               <a class="movedown"></a>        
-            </div>
+        </div>
+
     </section>
     
     <section class="business active" style="height: 900px;">
@@ -316,42 +319,7 @@ s.parentNode.insertBefore(hm, s);
         <a href="http://www.nzw666.com/pcindex.html" class="lookall" target="_blank">查看更多详情</a>      </div>
     </section>
     
-    <section class="marketing active" style="height: 900px;">
-      <div class="box" style="top: 307px;">
-        <!-- <div class="caption">
-        	<i></i><span>整合营销，抢占商机</span>
-            <br class="clear">
-        </div> -->
-        <ul class="items list-inline" style="width: 1090px;">
-        	 <!--  <li class="se"><u class="cl"></u><u class="cr"></u>
-            	<i></i><strong>搜索引擎</strong>
-                <p>SEO 优化<br>搜索引擎竞价</p>
-            </li> -->
-           <!--  <li class="weixin"><u class="cl"></u><u class="cr"></u>
-            	<i></i><strong>微信营销</strong>
-                <p>公众账号 / 微网站<br>微盟 ( 微社区 )</p>
-            </li> -->
-            <!-- <li class="weibo"><u class="cl"></u><u class="cr"></u>
-            	<i></i><strong>微博营销</strong>
-                <p>企业蓝V认证<br>官方微博接入网站</p>
-            </li> -->
-            <!-- <li class="sms"><u class="cl"></u><u class="cr"></u>
-            	<i></i><strong>消息推送</strong>
-                <p>短信平台接口<br>Email 推送</p>
-            </li> -->
-            <!-- <li class="pay"><u class="cl"></u><u class="cr"></u>
-            	<i></i><strong>在线支付</strong>
-                <p>支付宝、银联<br>Paypal 接口</p>
-            </li> -->
-            <li class="bbs">
-            <!-- <u class="cl"></u><u class="cr"></u> -->
-            	<!-- <i></i><strong>论坛聚人</strong>
-                <p>独立开发<br>会员打通</p> -->
-            </li>
-        </ul>
-      </div>
-    <!-- <div class="shade" style="height: 900px;"></div> -->
-    </section>
+    
     
     <section class="aboutus active" style="height: 900px;">
     	<ul class="menu"><li class="">思想</li><li class="">关于</li><li class="active">荣誉</li><li class="bg all" style="height: 126px;"></li><li class="bg one" style="height: 22px; top: 84px; left: 0px;"></li></ul>
@@ -420,6 +388,43 @@ s.parentNode.insertBefore(hm, s);
         <!-- <div class="below"><i></i></div> -->
       </div>
     </section>
+
+   <section class="marketing active" style="height: 900px;display:none;">
+      <div class="box" style="top: 307px;">
+        <!-- <div class="caption">
+          <i></i><span>整合营销，抢占商机</span>
+            <br class="clear">
+        </div> -->
+        <ul class="items list-inline" style="width: 1090px; ">
+           <!--  <li class="se"><u class="cl"></u><u class="cr"></u>
+              <i></i><strong>搜索引擎</strong>
+                <p>SEO 优化<br>搜索引擎竞价</p>
+            </li> -->
+           <!--  <li class="weixin"><u class="cl"></u><u class="cr"></u>
+              <i></i><strong>微信营销</strong>
+                <p>公众账号 / 微网站<br>微盟 ( 微社区 )</p>
+            </li> -->
+            <!-- <li class="weibo"><u class="cl"></u><u class="cr"></u>
+              <i></i><strong>微博营销</strong>
+                <p>企业蓝V认证<br>官方微博接入网站</p>
+            </li> -->
+            <!-- <li class="sms"><u class="cl"></u><u class="cr"></u>
+              <i></i><strong>消息推送</strong>
+                <p>短信平台接口<br>Email 推送</p>
+            </li> -->
+            <!-- <li class="pay"><u class="cl"></u><u class="cr"></u>
+              <i></i><strong>在线支付</strong>
+                <p>支付宝、银联<br>Paypal 接口</p>
+            </li> -->
+            <li class="bbs">
+            <!-- <u class="cl"></u><u class="cr"></u> -->
+              <!-- <i></i><strong>论坛聚人</strong>
+                <p>独立开发<br>会员打通</p> -->
+            </li>
+        </ul>
+      </div>
+    <!-- <div class="shade" style="height: 900px;"></div> -->
+    </section> 
     
 <div class="dock" style="height: 246px; top: 386.5px;">
 <ul class="icons">
@@ -436,5 +441,12 @@ s.parentNode.insertBefore(hm, s);
     <a class="switch"></a>  </div>
     
     
-
+<script>
+$(function(){
+    $('#guidediv').attr('class','guide1');
+});
+$(window).load(function(){
+    $('#guidediv').attr('class','guide');
+});
+</script>
 </body></html>
