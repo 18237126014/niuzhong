@@ -113,8 +113,10 @@ s.parentNode.insertBefore(hm, s);
                 <ul>
                 </ul>
             </div>
-            <div class="guide"><a class="active"></a><a class=""></a><a class=""></a><a class=""></a></div>
-            <a class="movedown"></a>        </div>
+            <div class="guide">
+              <a class="active"></a><a class=""></a><a class=""></a><a class=""></a></div>
+              <a class="movedown"></a>        
+            </div>
     </section>
     
     <section class="business active" style="height: 900px;">
@@ -145,7 +147,8 @@ s.parentNode.insertBefore(hm, s);
                 <p><br>通过精准数据分析，根据产品、访客制定策略；屏蔽点击，无效访客。</p>
             </li>
         </ul>
-      <label></label></div>
+      <!-- <label></label> -->
+      </div>
     </section>
     
     <section class="cases active" style="height: 900px;">
