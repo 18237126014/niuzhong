@@ -99,10 +99,9 @@ s.parentNode.insertBefore(hm, s);
                 
                 <ul>
                 </ul>
-          </div>
+            </div>
             <div class="guide"></div>
-            <a class="movedown"></a> 
-        </div>
+            <a class="movedown"></a>        </div>
     </section>
     
     <section class="business">

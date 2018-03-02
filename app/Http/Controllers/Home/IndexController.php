@@ -13,6 +13,11 @@ class IndexController extends Controller
     {
         return view('home.niuzhong',$this->assign);
     }
+
+    public function sjindex()
+    {
+    	return view('home.sjniuzhong',$this->assign);
+    }
     
 
     

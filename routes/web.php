@@ -17,4 +17,5 @@
 Route::group(['namespace'=>'Home'],function()
 {
 	Route::get('/','IndexController@index');
+	Route::get('wap','IndexController@sjindex');
 });
